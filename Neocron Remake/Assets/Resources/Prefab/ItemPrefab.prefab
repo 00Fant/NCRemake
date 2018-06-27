@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1005672542705914}
+  m_IsPrefabParent: 1
+--- !u!1 &1005672542705914
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4597957711031816}
+  - component: {fileID: 114151349480746014}
+  m_Layer: 0
+  m_Name: ItemPrefab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4597957711031816
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1005672542705914}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 570.2579, y: 332.94202, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114151349480746014
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1005672542705914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c5d59a51b63b08468fe986845c7e295, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Item_Name: 
+  Tech_Level: 0
+  Weight: 0
+  Icon_Image: {fileID: 0}
+  Icons:
+  - {fileID: 2800000, guid: 48df9f8fc12a89641bdea625930147a4, type: 3}
+  - {fileID: 2800000, guid: b9e442eb6486738448c630f8f91b0fd9, type: 3}
+  - {fileID: 2800000, guid: 7a333b8618648b442bb01dfd7cb172ef, type: 3}
+  - {fileID: 2800000, guid: 4b35bec20d87f1247bc273dea111a7a2, type: 3}
+  - {fileID: 2800000, guid: 703e1860248a9644ca4dc09aaaf86cc0, type: 3}
+  - {fileID: 2800000, guid: a28fa4151dea301499d6a7d02a175997, type: 3}
+  - {fileID: 2800000, guid: a5773d4b9d8c66948809917b094c0ebe, type: 3}
+  Stats_Condition_current: 0
+  Stats_Condition_maximum: 120
+  Stats_Damage: 0
+  Stats_Frequency: 0
+  Stats_Handling: 0
+  Stats_Range: 0
+  Details_Item_Type: 0
+  Details_Fire_Mode: 0
+  Details_Damage: 0
+  Details_Aiming: 0
+  Details_Shot_Frequency: 0
+  Details_Recoil: 0
+  Details_Range: 0
+  Details_Mod_Flashlight: 0
+  Details_Mod_Scope: 0
+  Details_Mod_Silencer: 0
+  Details_Mod_Laserpointer: 0
